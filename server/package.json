@@ -16,6 +16,7 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
     "@types/node": "^20.8.3",
+    "@types/passport-google-oauth20": "^2.0.12",
     "@types/supertest": "^2.0.14",
     "eslint": "^8.51.0",
     "sqlite3": "^5.1.6",
@@ -27,9 +28,12 @@
   },
   "dependencies": {
     "@fastify/cookie": "^9.1.0",
+    "@fastify/passport": "^2.4.0",
+    "@fastify/secure-session": "^7.1.0",
     "dotenv": "^16.3.1",
     "fastify": "^4.23.2",
     "knex": "^3.0.1",
+    "passport-google-oauth20": "^2.0.0",
     "pg": "^8.11.3",
     "zod": "^3.22.4"
   }
