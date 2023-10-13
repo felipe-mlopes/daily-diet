@@ -3,9 +3,12 @@ node_modules/
 
 # dotenv environment variable files
 .env
+.env.test
 
 # Database
 db/*.db
 
 # Build
 build
+
+teste.ts
